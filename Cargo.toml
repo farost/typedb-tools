@@ -7,11 +7,6 @@
 
 	[workspace.dependencies]
 
-		[workspace.dependencies.base64]
-			default-features = false
-			features = ["alloc", "default", "std"]
-			version = "0.22.1"
-
 		[workspace.dependencies.chrono]
 			default-features = false
 			features = ["alloc", "clock", "default", "iana-time-zone", "js-sys", "now", "oldtime", "std", "wasm-bindgen", "wasmbind", "winapi", "windows-link"]
@@ -72,11 +67,6 @@
 			features = ["custom-bindings", "fd-lock", "radix_trie", "with-file-history"]
 			version = "15.0.0"
 
-		[workspace.dependencies.seahash]
-			default-features = false
-			features = ["default"]
-			version = "4.1.0"
-
 		[workspace.dependencies.sentry]
 			default-features = false
 			features = ["backtrace", "contexts", "httpdate", "panic", "rustls", "sentry-backtrace", "sentry-contexts", "sentry-panic", "ureq", "webpki-roots"]
@@ -111,7 +101,7 @@
 			default-features = false
 			features = []
 			git = "https://github.com/typedb/typedb-driver"
-			tag = "3.14.0"
+			rev = "2f655492403ea01608322e0add943d486e2cfc7e"
 
 		[workspace.dependencies.typedb-migration]
 			default-features = false
